@@ -10,7 +10,7 @@ exports.handler = async (event) => {
 
     // Customize the Discord message
     const discordMessage = {
-      content: `🚀 Deployment Update\n\n- **Site Name**: ${payload.name}\n- **State**: ${payload.state}\n- **Branch**: ${payload.branch}\n- **URL**: ${payload.deploy_url}`,
+      content: `🚀 Deployment Update\n\n- **Site Name**: ${payload.name}\n- **State**: ${payload.state}\n- **Branch**: ${payload.branch}`,
     };
 
     // Send the message to Discord
